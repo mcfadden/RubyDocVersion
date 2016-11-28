@@ -1,7 +1,12 @@
 # RubyDocVersion for Safari
 
-
 Safari Extension to automatically redirect to the correct version at ruby-doc.org
+
+### Why?
+
+I was constantly finding myself looking at old ruby doc versions since Google results often returns them in the wrong order:
+
+<img src='https://github.com/mcfadden/RubyDocVersion/blob/master/screenshot.png?raw=true' width="300" alt="Google confusesd me" />
 
 ## Usage
 
