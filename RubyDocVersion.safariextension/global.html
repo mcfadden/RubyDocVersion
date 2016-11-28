@@ -7,10 +7,6 @@
 
       var settings = safari.extension.settings;
 
-      if (!settings['enabled']){
-        return;
-      }
-
       var expression = /^https?:\/\/(www\.)?ruby-doc\.org\/core\-(\d\.\d\.\d)/;
       var regex = new RegExp(expression);
       var match  = regex.exec(event.url);

@@ -72,17 +72,5 @@
 			<string>1.8.6</string>
 		</array>
 	</dict>
-	<dict>
-		<key>DefaultValue</key>
-		<true/>
-		<key>Key</key>
-		<string>enabled</string>
-		<key>Title</key>
-		<string>Enabled</string>
-		<key>TrueValue</key>
-		<string>true</string>
-		<key>Type</key>
-		<string>CheckBox</string>
-	</dict>
 </array>
 </plist>
