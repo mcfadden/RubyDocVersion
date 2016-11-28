@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>RubyDocVersion extension</title>
+<script>
+  (function() {
+    safari.application.addEventListener('beforeNavigate', function(event) {
+
+      var settings = safari.extension.settings;
+
+      if (!settings['enabled']){
+        return;
+      }
+
+      var expression = /^https?:\/\/(www\.)?ruby-doc\.org\/core\-(\d\.\d\.\d)/;
+      var regex = new RegExp(expression);
+      var match  = regex.exec(event.url);
+
+      if (match == null || settings['ruby-version'] == match[2]){
+        return;
+      }
+
+      var newUrl = event.url.replace(match[2], settings['ruby-version'])
+      event.preventDefault();
+      event.target.url = newUrl;
+    }, true);
+
+  })();
+</script>
