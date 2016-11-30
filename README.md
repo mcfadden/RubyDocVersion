@@ -6,7 +6,7 @@ Safari Extension to automatically redirect to the correct version at ruby-doc.or
 
 I was constantly finding myself looking at old ruby doc versions since Google results often returns them in the wrong order:
 
-<img src='https://github.com/mcfadden/RubyDocVersion/blob/master/screenshot.png?raw=true' width="300" alt="Google confusesd me" />
+<img src='https://github.com/mcfadden/RubyDocVersion/blob/master/screenshots/search-results.png?raw=true' width="300" alt="Google confusesd me" />
 
 ## Usage
 
@@ -20,6 +20,10 @@ You'll need to "trust" the extension.
 Safari menu > Preferences > Extensions > RubyDocVersion
 
 Select the Version of Ruby you use.
+
+<img src='https://github.com/mcfadden/RubyDocVersion/blob/master/screenshots/settings.png?raw=true' width="300" alt="Select the Ruby Version you use" />
+
+Now when you visit old docs (ex: [http://ruby-doc.org/core-1.9.3/](http://ruby-doc.org/core-1.9.3/)) you are automatically redirected to the version you selected.
 
 ## Notes
 
