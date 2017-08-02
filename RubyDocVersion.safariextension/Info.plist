@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Ben McFadden</string>
 	<key>Builder Version</key>
-	<string>12602.2.14.0.7</string>
+	<string>12603.2.4</string>
 	<key>CFBundleDisplayName</key>
 	<string>RubyDocVersion</string>
 	<key>CFBundleIdentifier</key>
@@ -24,7 +24,7 @@
 	<key>Description</key>
 	<string>Redirect to the right version of Ruby Docs</string>
 	<key>DeveloperIdentifier</key>
-	<string>C3488BKA8Y</string>
+	<string>0000000000</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
